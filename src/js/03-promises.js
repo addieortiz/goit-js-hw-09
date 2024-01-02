@@ -1,3 +1,4 @@
+// Notiflix
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const formEl = document.querySelector('.form');
@@ -36,4 +37,4 @@ function handleSubmit(event) {
   }
 }
 
-formEl, addEventListener('submit', handleSubmit);
+formEl.addEventListener('submit', handleSubmit);
